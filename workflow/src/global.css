@@ -80,6 +80,12 @@ header span {
 .container .btn:hover {
   filter: brightness(0.9);
 }
+.container form span {
+  margin-bottom: 1rem;
+}
+.container form span .obrigatorio {
+  color: red;
+}
 .container form .footer {
   display: flex;
   gap: 1rem;
